@@ -1,0 +1,22 @@
+src
+|
++-- api        # API関連
++-- components        # 共通コンポーネント
+|       +-- parts         # 最小単位
+|       +-- templates     # partsやtemplatesを組み合わせ
+|       +-- views         # templatesに変数やapiからのデータを渡す
+|       +-- pages         # routeから呼び出す。titleやdescriptionといったmeta情報もここに
++-- config         # URLなどのアプリケーション全体
++-- hooks             # 汎用的なhooks
++-- libs               # 外部ライブラリ
++-- pages             # Next.jsを採用したため. route用
++-- public             # 静的なファイルを格納
++-- stores             # グローバルステートストア
++-- styles            # global style, colorなど。
++-- test             # test関連のファイルを格納
++-- types             # 共通のtype.d.tsなどをここに
++-- utils             # 汎用的なユーティリティ関数. 例えば、数値データを３桁区切りのstringを返す関数など
+
+参考：
+https://zenn.dev/meijin/articles/bulletproof-react-is-best-architecture
+https://zenn.dev/offers/articles/20220523-component-design-best-practice
